@@ -1,0 +1,60 @@
+h1{
+  color:paleturquoise;
+  margin:30px;
+  font-family:'Rockwell';
+  }
+ h2{
+  color:black;
+  text-align: left;
+  font-family:'Rockwell';
+  font-style: italic;
+  }
+  h3{
+    color:black;
+    text-align: left;
+    font-family:'Rockwell';
+    }
+  .header{
+    background-color: #ffbc2c;
+    display: flex;
+    justify-content: space-between;
+  }
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  body{
+    background-color: #fceded;
+  }
+  a:link{
+    color: white;
+    margin: 10px;
+  }
+  a:visited{
+    color:white;
+    margin: 10px;
+  }
+  .menu{
+    margin-right: 30px;
+  }
+  .menu a{
+    margin-left: 20px;
+  }
+  .item{
+    position: relative;
+  }
+  .item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+  }
+  .item:hover p{
+    opacity: 1;
+  }
